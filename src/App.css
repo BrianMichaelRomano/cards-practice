@@ -76,7 +76,6 @@
 }
 
 .cardStats { 
-  /* display: inline-block; */
   text-align: center;
   background-color: rgb(238, 238, 238);
   border: 2px solid black;
@@ -95,3 +94,6 @@
   padding-top: 7px;
 }
 
+.selected {
+  box-shadow: 5px 5px 10px 1px rgb(241, 225, 131); 
+}

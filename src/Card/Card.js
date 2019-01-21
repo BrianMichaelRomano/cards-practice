@@ -3,7 +3,7 @@ import React from 'react';
 const Card = (props) => {
   return (
     <div onClick={props.onCardClicked} className="cardWrapper" id={props.cardStats.id}>
-      <div className="card">
+      <div className={"card " + (props.cardStats.isSelected ? 'selected' : '')}>
         <div className="innerCard">
           <div className="cardTitle">
             <p>{props.cardStats.title}</p>
